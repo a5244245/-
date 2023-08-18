@@ -1,0 +1,33 @@
+.marquee {
+  padding: 15px 0 0 0;
+  background: #1b2d58;
+  margin: 1%;
+}
+.news-marquee {
+  height: 36px;
+  text-align: center;
+  overflow: hidden;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.news-marquee ul li {
+  height: 36px;
+  overflow: hidden;
+}
+.news-marquee ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.news-marquee ul li a:hover {
+  text-decoration: underline;
+}
+svg {
+  fill: #5dc5c4;
+  vertical-align: middle;
+  margin-right: 10px;
+}
